@@ -10,11 +10,11 @@ BitTorrent is a protocol for downloading and distributing files across the Inter
 5) Surafel Getahun UGR/5965/12 sec 2<br>
 # Directions
 To generate .torrent file use the following command:<br>
-go run main.go generateTorrent <FilePath><br>
+go run main.go generateTorrent *filename.type* <FilePath><br>
 To seed use the following command:<br>
-go run main.go seed <FilePath><br>
+go run main.go seed *filename.type* <FilePath><br>
 To download or leech a file use the following command: <br>
-go run main.go download <torrentFilePath> <br>
+go run main.go download *torrentfilename.type*<torrentFilePath> <br>
 N.B. This project runs in localhost.
 # Module Organization
 The final software is composed of the following packages: ‘generateTorrent’, ‘fileCommit’, ‘leecher’, ‘seeder’ and there  is the main file that is used as an interface of communication between the software and the user. It also includes files that are used for the demonstration of the system. Like generated torrent files and mock files used to show the inner workings of the system.
