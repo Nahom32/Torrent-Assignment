@@ -2,6 +2,12 @@
 BitTorrent Client
 
 BitTorrent is a protocol for downloading and distributing files across the Internet. In contrast with the traditional client/server relationship, in which downloaders connect to a central server (for example: watching a movie on Netflix, or loading the web page you’re reading now), participants in the BitTorrent network, called peers, download pieces of files from each other—this is what makes it a peer-to-peer protocol.
+# Contributors
+1) Fikremariam Fikadu UGR/9125/12 sec 1<br>
+2) Paulos Dessie UGR/6912/12 sec 1<br>
+3) Nahom Senay UGR/9334/12 sec 2<br>
+4) Kaleab Tekalign UGR/3664/12 sec 2<br>
+5) Surafel Getahun UGR/5965/12 sec 2<br>
 # Directions
 To generate .torrent file use the following command:<br>
 go run main.go generateTorrent <FilePath><br>
