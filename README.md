@@ -15,7 +15,7 @@ To seed use the following command:<br>
 go run main.go seed *filename.type* <FilePath><br>
 To download or leech a file use the following command: <br>
 go run main.go download *torrentfilename.type*<torrentFilePath> <br>
-N.B. This project runs in localhost.
+N.B. This project runs in localhost with no restart capabilites.
 # Module Organization
 The final software is composed of the following packages: ‘generateTorrent’, ‘fileCommit’, ‘leecher’, ‘seeder’ and there  is the main file that is used as an interface of communication between the software and the user. It also includes files that are used for the demonstration of the system. Like generated torrent files and mock files used to show the inner workings of the system.
 ## generateTorrent
